@@ -1,0 +1,5 @@
+#!/bin/bash 
+echo "##############  Priting Running containers ######################"
+docker ps 
+docker "############  Printing number of containers ###################"
+docker ps | wc -l 
